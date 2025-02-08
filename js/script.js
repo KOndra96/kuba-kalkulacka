@@ -7,7 +7,7 @@ if (resultsContainer) {
             <img src="./assets/images/illustration-empty.svg" alt="Empty form image">
             <h2>KUBO, TADY BUDOU VÝSLEDKY</h2>
         </header>
-        <p><b><span style="color: hsl(61, 70%, 52%);">Vyplň formulář.</span></b> Asi používej jen tu "Splátkovou hypotéku", protože to druhý mi přijde jako nějaká píčovina, vzorec, psalo to AI a nějak mi nesedí, proč bys něco takového využíval.</p>
+        <p><b><span style="color: hsl(61, 70%, 52%);">Vyplň formulář.</span></b> Asi používej jen tu "Splátkovou hypotéku", to druhý mi přijde jako nějaká blbost - vzorec psala AI a nějak mi nesedí, proč bys něco takového využíval.</p>
         <div class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
             Coded by <a href="https://github.com/KOndra96">KOndra96</a>.
