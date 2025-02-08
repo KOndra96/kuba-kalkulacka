@@ -5,9 +5,9 @@ if (resultsContainer) {
     <div class="non-counted">
         <header>
             <img src="./assets/images/illustration-empty.svg" alt="Empty form image">
-            <h2>Results shown here</h2>
+            <h2>KUBO, TADY BUDOU VÝSLEDKY</h2>
         </header>
-        <p>Complete the form and click "calculate repayments" to see what your monthly repayments would be.</p>
+        <p><b><span style="color: hsl(61, 70%, 52%);">Vyplň formulář.</span></b> Asi používej jen tu "Splátkovou hypotéku", protože to druhý mi přijde jako nějaká píčovina, vzorec, psalo to AI a nějak mi nesedí, proč bys něco takového využíval.</p>
         <div class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
             Coded by <a href="https://github.com/KOndra96">KOndra96</a>.
@@ -66,15 +66,15 @@ button.addEventListener('click', (event) => {
                 resultsContainer.innerHTML = `
                 <div class="counted">
                     <header>
-                        <h2>Your results</h2>
+                        <h2>Tvé výsledky</h2>
                     </header>
-                    <p>Your results are shown below based on the information you provided. To adjust the results, edit the form and click "calculate repayments" again.</p>
+                    <p>Tvé výsledky se zobrazí níže na základě zadaných údajů. Pro úpravu změň vyplněné údaje ve formuláři a znovu stiskni "Spočítat splátky".</p>
                     <div class="result-box">
-                        <p>Your monthly repayments<br>
-                        <span class="monthly">£${monthlyRepayment.toFixed(2)}</span></p>
+                        <p>Tvá měsíční splátka<br>
+                        <span class="monthly">${monthlyRepayment.toFixed(2)} Kč</span></p>
                         <hr>
-                        <p>Total you'll repay over the term<br>
-                        <span class="total">£${totalRepayment.toFixed(2)}</span>
+                        <p>Celkově zaplatíš<br>
+                        <span class="total">${totalRepayment.toFixed(2)} Kč</span>
                         </p>
                     </div>
                     <div class="attribution">
