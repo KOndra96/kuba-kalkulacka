@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
   <meta charset="UTF-8">
@@ -27,39 +27,38 @@
       <div class="calculator">
         <form onsubmit="event.preventDefault();">
           <fieldset class="form-header">
-            <h2>Mortgage Calculator</h2>
-            <input type="reset" value="Clear all">
+            <h2>Kalkulačka hypotéky</h2>
+            <input type="reset" value="Smazat vše">
           </fieldset>
 
           <fieldset>
-            <label for="amount">Mortgage Amount</label>
+            <label for="amount">Půjčovaná částka (Kč)</label>
             <input type="number" name="amount" id="amount" required>
           </fieldset>
 
           <div class="nextto">
             <fieldset>
-              <label for="term">Mortgage Term</label>
+              <label for="term">Délka hypotéky (let)</label>
               <input type="number" name="term" id="term" required>
             </fieldset>
             <fieldset>
-              <label for="rate">Interest Rate</label>
+              <label for="rate">Úrok ročně (%)</label>
               <input type="number" name="rate" id="rate" required>
             </fieldset>
           </div>
 
           <fieldset class="radios">
-            <legend>Mortgage type</legend>
+            <legend>Typ hypotéky</legend>
             <div class="radio-container"><label class="choice"><input type="radio" name="type" value="repayment"
                   required>
-                Repayment</label></div>
+                Splátková hypotéka</label></div>
             <div class="radio-container"><label class="choice"><input type="radio" name="type" value="interest-only"
                   required>
-                Interest only</label></div>
+                Hypotéka se základní splátkou</label></div>
           </fieldset>
 
           <fieldset>
-            <button type="submit"><img src="./assets/images/icon-calculator.svg" alt="Calculator icon">Calculate
-              repayments</button>
+            <button type="submit"><img src="./assets/images/icon-calculator.svg" alt="Calculator icon">Spočítat splátky</button>
           </fieldset>
         </form>
       </div>
